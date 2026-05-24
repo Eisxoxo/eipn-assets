@@ -1,0 +1,77 @@
+{
+  "locales": ["en", "ru", "zh"],
+  "version": "1",
+  "uiConfig": {
+    "subscriptionInfoBlockType": "expanded",
+    "installationGuidesBlockType": "cards",
+    "backgroundColor": "#000000",
+    "textColor": "#FFFFFF"
+  },
+  "platforms": {
+    "ios": {
+      "apps": [
+        {
+          "name": "INCY",
+          "blocks": [
+            {
+              "title": {"en": "App Installation", "ru": "Установка приложения", "zh": "应用安装"},
+              "buttons": [{"link": "https://apps.apple.com/us/app/incy/id6756943388", "text": {"en": "Download", "ru": "Скачать", "zh": "下载"}, "type": "external", "svgIconKey": "Xray"}],
+              "svgIconKey": "DownloadIcon",
+              "description": {"en": "Modern VPN client with VLESS, VMess, Trojan and Shadowsocks support.", "ru": "Современный VPN-клиент с поддержкой VLESS, VMess, Trojan и Shadowsocks.", "zh": "支持 VLESS、VMess、Trojan 和 Shadowsocks 的现代化 VPN 客户端。"},
+              "svgIconColor": "dark"
+            },
+            {
+              "title": {"en": "Add Subscription", "ru": "Добавление подписки", "zh": "添加订阅"},
+              "buttons": [{"link": "incy://add/{{SUBSCRIPTION_LINK}}", "text": {"en": "Add Subscription", "ru": "Добавить подписку", "zh": "添加订阅"}, "type": "subscriptionLink", "svgIconKey": "Plus"}],
+              "svgIconKey": "Gear",
+              "description": {"en": "Click the button below — the app will open and the subscription will be added automatically", "ru": "Нажмите кнопку ниже — приложение откроется, и подписка добавится автоматически.", "zh": "点击下方按钮，应用将会打开，并自动添加订阅"},
+              "svgIconColor": "cyan"
+            }
+          ],
+          "featured": true,
+          "svgIconKey": "ExternalLink"
+        }
+      ],
+      "svgIconKey": "AppleIcon",
+      "displayName": {"en": "iOS", "ru": "iOS", "zh": "iOS"}
+    },
+    "android": {
+      "apps": [
+        {
+          "name": "INCY",
+          "blocks": [
+            {
+              "title": {"en": "App Installation", "ru": "Установка приложения", "zh": "应用安装"},
+              "buttons": [{"link": "https://play.google.com/store/apps/details?id=llc.itdev.incy", "text": {"en": "Download", "ru": "Скачать", "zh": "下载"}, "type": "external", "svgIconKey": "ExternalLink"}],
+              "svgIconKey": "ExternalLink",
+              "description": {"en": "Modern VPN client with VLESS, VMess, Trojan and Shadowsocks support.", "ru": "Современный VPN-клиент с поддержкой VLESS, VMess, Trojan и Shadowsocks.", "zh": "支持 VLESS、VMess、Trojan 和 Shadowsocks 的现代化 VPN 客户端。"},
+              "svgIconColor": "dark"
+            },
+            {
+              "title": {"en": "Add Subscription", "ru": "Добавление подписки", "zh": "添加订阅"},
+              "buttons": [{"link": "incy://add/{{SUBSCRIPTION_LINK}}", "text": {"en": "Add Subscription", "ru": "Добавить подписку", "zh": "添加订阅"}, "type": "subscriptionLink", "svgIconKey": "Plus"}],
+              "svgIconKey": "Check",
+              "description": {"en": "Click the button below — the app will open and the subscription will be added automatically", "ru": "Нажмите кнопку ниже — приложение откроется, и подписка добавится автоматически.", "zh": "点击下方按钮，应用将会打开，并自动添加订阅"},
+              "svgIconColor": "cyan"
+            }
+          ],
+          "featured": true,
+          "svgIconKey": "Star"
+        }
+      ],
+      "svgIconKey": "Android",
+      "displayName": {"en": "Android", "ru": "Android", "zh": "Android"}
+    }
+  },
+  "baseSettings": {
+    "metaTitle": "Remnawave Subscription",
+    "metaDescription": "Remnawave VPN Subscription",
+    "hideGetLinkButton": false,
+    "showConnectionKeys": false
+  },
+  "brandingSettings": {
+    "title": "Remnawave",
+    "logoUrl": "https://raw.githubusercontent.com/Eisxoxo/eipn-assets/main/images/logos/remnawave-logo-black-bg.jpg",
+    "supportUrl": "https://t.me/Eixoxo"
+  }
+}
