@@ -1,0 +1,534 @@
+{
+  "locales": [
+    "en",
+    "ru",
+    "zh"
+  ],
+  "version": "1",
+  "uiConfig": {
+    "subscriptionInfoBlockType": "expanded",
+    "installationGuidesBlockType": "cards",
+    "backgroundColor": "#000000",
+    "textColor": "#FFFFFF"
+  },
+  "platforms": {
+    "ios": {
+      "apps": [
+        {
+          "name": "INCY",
+          "blocks": [
+            {
+              "title": {
+                "en": "App Installation",
+                "ru": "Установка приложения",
+                "zh": "应用安装"
+              },
+              "buttons": [
+                {
+                  "link": "https://apps.apple.com/us/app/incy/id6756943388",
+                  "text": {
+                    "en": "Download",
+                    "ru": "Скачать",
+                    "zh": "下载"
+                  },
+                  "type": "external",
+                  "svgIconKey": "Xray"
+                }
+              ],
+              "svgIconKey": "DownloadIcon",
+              "description": {
+                "en": "Modern VPN client with VLESS, VMess, Trojan and Shadowsocks support.",
+                "ru": "Современный VPN-клиент с поддержкой VLESS, VMess, Trojan и Shadowsocks.",
+                "zh": "支持 VLESS、VMess、Trojan 和 Shadowsocks 的现代化 VPN 客户端。"
+              },
+              "svgIconColor": "dark"
+            },
+            {
+              "title": {
+                "en": "Add Subscription",
+                "ru": "Добавление подписки",
+                "zh": "添加订阅"
+              },
+              "buttons": [
+                {
+                  "link": "incy://add/{{SUBSCRIPTION_LINK}}",
+                  "text": {
+                    "en": "Add Subscription",
+                    "ru": "Добавить подписку",
+                    "zh": "添加订阅"
+                  },
+                  "type": "subscriptionLink",
+                  "svgIconKey": "Plus"
+                }
+              ],
+              "svgIconKey": "Gear",
+              "description": {
+                "en": "Click the button below — the app will open and the subscription will be added automatically",
+                "ru": "Нажмите кнопку ниже — приложение откроется, и подписка добавится автоматически.",
+                "zh": "点击下方按钮，应用将会打开，并自动添加订阅"
+              },
+              "svgIconColor": "cyan"
+            },
+            {
+              "title": {
+                "en": "Connect and use",
+                "ru": "Подключение и использование",
+                "zh": "连接并使用"
+              },
+              "buttons": [],
+              "svgIconKey": "Check",
+              "description": {
+                "en": "In the main section, click the large power button in the center to connect to VPN. Don't forget to select a server from the server list. If needed, choose another server from the server list.",
+                "ru": "В главном разделе нажмите большую кнопку включения в центре для подключения к VPN. Не забудьте выбрать сервер в списке серверов. При необходимости выберите другой сервер из списка серверов.",
+                "zh": "在主界面，点击中央的大电源按钮以连接 VPN。不要忘记从服务器列表中选择服务器。如有需要，可选择其它服务器。"
+              },
+              "svgIconColor": "cyan"
+            }
+          ],
+          "featured": true,
+          "svgIconKey": "ExternalLink"
+        },
+        {
+          "name": "Happ",
+          "blocks": [
+            {
+              "title": {
+                "en": "App Installation",
+                "ru": "Установка приложения",
+                "zh": "应用安装"
+              },
+              "buttons": [
+                {
+                  "link": "https://apps.apple.com/ru/app/happ-proxy-utility-plus/id6746188973",
+                  "text": {
+                    "en": "App Store (RU)",
+                    "ru": "App Store (RU)",
+                    "zh": "App Store (RU)"
+                  },
+                  "type": "external",
+                  "svgIconKey": "ExternalLink"
+                },
+                {
+                  "link": "https://apps.apple.com/us/app/happ-proxy-utility/id6504287215",
+                  "text": {
+                    "en": "App Store (Global)",
+                    "ru": "App Store (Global)",
+                    "zh": "App Store (Global)"
+                  },
+                  "type": "external",
+                  "svgIconKey": "ExternalLink"
+                }
+              ],
+              "svgIconKey": "DownloadIcon",
+              "description": {
+                "en": "Open the page in App Store and install the app. Launch it, in the VPN configuration permission window click Allow and enter your passcode.",
+                "ru": "Откройте страницу в App Store и установите приложение. Запустите его, в окне разрешения VPN-конфигурации нажмите Allow и введите свой пароль.",
+                "zh": "在 App Store 打开页面并安装应用。启动应用后，在 VPN 配置权限窗口点击"允许"，并输入您的密码。"
+              },
+              "svgIconColor": "violet"
+            },
+            {
+              "title": {
+                "en": "Add Subscription",
+                "ru": "Добавление подписки",
+                "zh": "添加订阅"
+              },
+              "buttons": [
+                {
+                  "link": "happ://add/{{SUBSCRIPTION_LINK}}",
+                  "text": {
+                    "en": "Add Subscription",
+                    "ru": "Добавить подписку",
+                    "zh": "添加订阅"
+                  },
+                  "type": "subscriptionLink",
+                  "svgIconKey": "Plus"
+                }
+              ],
+              "svgIconKey": "CloudDownload",
+              "description": {
+                "en": "Click the button below — the app will open and the subscription will be added automatically",
+                "ru": "Нажмите кнопку ниже — приложение откроется, и подписка добавится автоматически.",
+                "zh": "点击下方按钮，应用将会打开，并自动添加订阅"
+              },
+              "svgIconColor": "cyan"
+            },
+            {
+              "title": {
+                "en": "Connect and use",
+                "ru": "Подключение и использование",
+                "zh": "连接并使用"
+              },
+              "buttons": [],
+              "svgIconKey": "Check",
+              "description": {
+                "en": "In the main section, click the large power button in the center to connect to VPN. Don't forget to select a server from the server list. If needed, choose another server from the server list.",
+                "ru": "В главном разделе нажмите большую кнопку включения в центре для подключения к VPN. Не забудьте выбрать сервер в списке серверов. При необходимости выберите другой сервер из списка серверов.",
+                "zh": "在主界面，点击中央的大电源按钮以连接 VPN。不要忘记从服务器列表中选择服务器。如有需要，可选择其它服务器。"
+              },
+              "svgIconColor": "teal"
+            }
+          ],
+          "featured": false,
+          "svgIconKey": "Happ"
+        },
+        {
+          "name": "Stash",
+          "blocks": [
+            {
+              "title": {
+                "en": "App Installation",
+                "ru": "Установка приложения",
+                "zh": "应用安装"
+              },
+              "buttons": [
+                {
+                  "link": "https://apps.apple.com/us/app/stash-rule-based-proxy/id1596063349",
+                  "text": {
+                    "en": "Open in App Store",
+                    "ru": "Открыть в App Store",
+                    "zh": "在 App Store 打开"
+                  },
+                  "type": "external",
+                  "svgIconKey": "ExternalLink"
+                }
+              ],
+              "svgIconKey": "DownloadIcon",
+              "description": {
+                "en": "Open the App Store page and install the app.",
+                "ru": "Откройте страницу в App Store и установите приложение.",
+                "zh": "打开 App Store 页面并安装应用。"
+              },
+              "svgIconColor": "cyan"
+            },
+            {
+              "title": {
+                "en": "Add Subscription",
+                "ru": "Добавление подписки",
+                "zh": "添加订阅"
+              },
+              "buttons": [
+                {
+                  "link": "stash://install-config?url={{SUBSCRIPTION_LINK}}",
+                  "text": {
+                    "en": "Add Subscription",
+                    "ru": "Добавить подписку",
+                    "zh": "添加订阅"
+                  },
+                  "type": "subscriptionLink",
+                  "svgIconKey": "Plus"
+                }
+              ],
+              "svgIconKey": "CloudDownload",
+              "description": {
+                "en": "Tap the button below — Stash will open and the configuration will be added automatically.",
+                "ru": "Нажмите кнопку ниже — приложение Stash откроется, и конфигурация будет добавлена автоматически.",
+                "zh": "点击下方按钮，Stash 将会打开并自动添加配置。"
+              },
+              "svgIconColor": "cyan"
+            },
+            {
+              "title": {
+                "en": "Connect and use",
+                "ru": "Подключение и использование",
+                "zh": "连接并使用"
+              },
+              "buttons": [],
+              "svgIconKey": "Check",
+              "description": {
+                "en": "On the main screen, tap the Start button. When prompted, allow adding VPN configurations. After the profile is activated, open the Policy section and select the country you want to connect through.",
+                "ru": "На главном экране нажмите кнопку «Запуск». В появившемся окне разрешите добавление конфигураций VPN. После активации профиля перейдите в раздел «Политика» и выберите страну п��дключения.",
+                "zh": "在主界面点击「Start」按钮。在提示时允许添加 VPN 配置。配置启用后，进入「Policy（策略）」部分并选择要连接的国家。"
+              },
+              "svgIconColor": "teal"
+            }
+          ],
+          "featured": false,
+          "svgIconKey": "Stash"
+        }
+      ],
+      "svgIconKey": "AppleIcon",
+      "displayName": {
+        "en": "iOS",
+        "ru": "iOS",
+        "zh": "iOS"
+      }
+    },
+    "android": {
+      "apps": [
+        {
+          "name": "INCY",
+          "blocks": [
+            {
+              "title": {
+                "en": "App Installation",
+                "ru": "Установка приложения",
+                "zh": "应用安装"
+              },
+              "buttons": [
+                {
+                  "link": "https://play.google.com/store/apps/details?id=llc.itdev.incy",
+                  "text": {
+                    "en": "Download",
+                    "ru": "Скачать",
+                    "zh": "下载"
+                  },
+                  "type": "external",
+                  "svgIconKey": "ExternalLink"
+                }
+              ],
+              "svgIconKey": "ExternalLink",
+              "description": {
+                "en": "Modern VPN client with VLESS, VMess, Trojan and Shadowsocks support.",
+                "ru": "Современный VPN-клиент с поддержкой VLESS, VMess, Trojan и Shadowsocks.",
+                "zh": "支持 VLESS、VMess、Trojan 和 Shadowsocks 的现代化 VPN 客户端。"
+              },
+              "svgIconColor": "dark"
+            },
+            {
+              "title": {
+                "en": "Add Subscription",
+                "ru": "Добавление подписки",
+                "zh": "添加订阅"
+              },
+              "buttons": [
+                {
+                  "link": "incy://add/{{SUBSCRIPTION_LINK}}",
+                  "text": {
+                    "en": "Add Subscription",
+                    "ru": "Добавить подписку",
+                    "zh": "添加订阅"
+                  },
+                  "type": "subscriptionLink",
+                  "svgIconKey": "Plus"
+                }
+              ],
+              "svgIconKey": "Check",
+              "description": {
+                "en": "Click the button below — the app will open and the subscription will be added automatically",
+                "ru": "Нажмите кнопку ниже — приложение откроется, и подписка добавится автоматически.",
+                "zh": "点击下方按钮，应用将会打开，并自动添加订阅"
+              },
+              "svgIconColor": "cyan"
+            },
+            {
+              "title": {
+                "en": "Connect and use",
+                "ru": "Подключение и использование",
+                "zh": "连接并使用"
+              },
+              "buttons": [],
+              "svgIconKey": "TV",
+              "description": {
+                "en": "In the main section, click the large power button in the center to connect to VPN. Don't forget to select a server from the server list. If needed, choose another server from the server list.",
+                "ru": "В главном разд��ле нажмите большую кнопку включения в центре для подключения к VPN. Не забудьте выбрать сервер в списке серверов. При необходимости выберите другой сервер из списка серверов.",
+                "zh": "在主界面，点击中央的大电源按钮以连接 VPN。不要忘记从服务器列表中选择服务器。如有需要，可选择其它服务器。"
+              },
+              "svgIconColor": "cyan"
+            }
+          ],
+          "featured": true,
+          "svgIconKey": "Star"
+        },
+        {
+          "name": "Happ",
+          "blocks": [
+            {
+              "title": {
+                "en": "App Installation",
+                "ru": "Установка приложения",
+                "zh": "应用安装"
+              },
+              "buttons": [
+                {
+                  "link": "https://play.google.com/store/apps/details?id=com.happproxy",
+                  "text": {
+                    "en": "Open in Google Play",
+                    "ru": "Открыть в Google Play",
+                    "zh": "在 Google Play 打开"
+                  },
+                  "type": "external",
+                  "svgIconKey": "ExternalLink"
+                },
+                {
+                  "link": "https://github.com/Happ-proxy/happ-android/releases/latest/download/Happ.apk",
+                  "text": {
+                    "en": "Download APK",
+                    "ru": "Скачать APK",
+                    "zh": "下载 APK"
+                  },
+                  "type": "external",
+                  "svgIconKey": "ExternalLink"
+                }
+              ],
+              "svgIconKey": "DownloadIcon",
+              "description": {
+                "en": "Open the page in Google Play and install the app. Or install the app directly from the APK file if Google Play is not working.",
+                "ru": "Откройте страницу в Google Play и установите приложение. Или установите приложение из APK файла напрямую, если Google Play не работает.",
+                "zh": "在 Google Play 打开页面并安装应用。如果 Google Play 无法使用，可直接通过 APK 文件安装应用。"
+              },
+              "svgIconColor": "cyan"
+            },
+            {
+              "title": {
+                "en": "Add Subscription",
+                "ru": "Добавление подписки",
+                "zh": "添加订阅"
+              },
+              "buttons": [
+                {
+                  "link": "happ://add/{{SUBSCRIPTION_LINK}}",
+                  "text": {
+                    "en": "Add Subscription",
+                    "ru": "Добавить подписку",
+                    "zh": "添加订阅"
+                  },
+                  "type": "subscriptionLink",
+                  "svgIconKey": "Plus"
+                }
+              ],
+              "svgIconKey": "CloudDownload",
+              "description": {
+                "en": "Click the button below to add subscription",
+                "ru": "Нажмите кнопку ниже, чтобы добавить подписку",
+                "zh": "点击下方按钮以添加订阅"
+              },
+              "svgIconColor": "cyan"
+            },
+            {
+              "title": {
+                "en": "Connect and use",
+                "ru": "Подключение и использование",
+                "zh": "连接并使用"
+              },
+              "buttons": [],
+              "svgIconKey": "Check",
+              "description": {
+                "en": "Open the app and connect to the server",
+                "ru": "Откройте приложение и подключитесь к серверу",
+                "zh": "打开应用并连接到服务器"
+              },
+              "svgIconColor": "teal"
+            }
+          ],
+          "featured": true,
+          "svgIconKey": "Happ"
+        }
+      ],
+      "svgIconKey": "Android",
+      "displayName": {
+        "en": "Android",
+        "ru": "Android",
+        "zh": "Android"
+      }
+    }
+  },
+  "baseSettings": {
+    "metaTitle": "Remnawave Subscription",
+    "metaDescription": "Remnawave VPN Subscription",
+    "hideGetLinkButton": false,
+    "showConnectionKeys": false
+  },
+  "baseTranslations": {
+    "name": {
+      "en": "Username",
+      "ru": "Имя пользователя",
+      "zh": "用户名"
+    },
+    "active": {
+      "en": "Active",
+      "ru": "Активна",
+      "zh": "活跃"
+    },
+    "status": {
+      "en": "Status",
+      "ru": "Статус",
+      "zh": "状态"
+    },
+    "expired": {
+      "en": "Expired",
+      "ru": "Истекла",
+      "zh": "已于"
+    },
+    "expires": {
+      "en": "Expires",
+      "ru": "Истекает",
+      "zh": "到期时间"
+    },
+    "getLink": {
+      "en": "Get Link",
+      "ru": "Получение ссылки",
+      "zh": "获取链接"
+    },
+    "unknown": {
+      "en": "Unknown",
+      "ru": "Неизвестно",
+      "zh": "未知"
+    },
+    "copyLink": {
+      "en": "Copy link",
+      "ru": "Скопировать ссылку",
+      "zh": "复制链接"
+    },
+    "inactive": {
+      "en": "Inactive",
+      "ru": "Неактивна",
+      "zh": "未激活"
+    },
+    "bandwidth": {
+      "en": "Bandwidth",
+      "ru": "Трафик",
+      "zh": "流量"
+    },
+    "expiresIn": {
+      "en": "Expires",
+      "ru": "Истекает",
+      "zh": "后到期"
+    },
+    "linkCopied": {
+      "en": "Link copied",
+      "ru": "Ссылка скопирована",
+      "zh": "链接已复制"
+    },
+    "scanQrCode": {
+      "en": "Scan the QR code above in the client",
+      "ru": "Отсканируйте QR-код в приложении",
+      "zh": "在客户端中扫描上方二维码"
+    },
+    "indefinitely": {
+      "en": "Indefinitely",
+      "ru": "Бессрочно",
+      "zh": "永久"
+    },
+    "scanToImport": {
+      "en": "Scan to import this key",
+      "ru": "Отсканируйте QR-код для импорта ключа",
+      "zh": "扫描以导入此密钥"
+    },
+    "connectionKeysHeader": {
+      "en": "Connection Keys",
+      "ru": "Ключи подключения",
+      "zh": "连接密钥"
+    },
+    "linkCopiedToClipboard": {
+      "en": "Link copied to clipboard",
+      "ru": "Ссылка скопирована в буфер обмена",
+      "zh": "链接已复制到剪贴板"
+    },
+    "scanQrCodeDescription": {
+      "en": "Easily add the subscription to any client. There's another option: copy the link below and paste it into the client",
+      "ru": "Простое добавление подписки в любой клиент. Есть и другой вариант: скопируйте ссылку ниже и вставьте в клиент.",
+      "zh": "轻松将订阅添加到任何客户端。还有另一种选择：复制下面的链接并粘贴到客户端中"
+    },
+    "installationGuideHeader": {
+      "en": "Installation",
+      "ru": "Установка",
+      "zh": "安装"
+    }
+  },
+  "brandingSettings": {
+    "title": "Remnawave",
+    "logoUrl": "https://raw.githubusercontent.com/Eisxoxo/eipn-assets/main/images/logos/remnawave-logo-black-bg.jpg",
+    "supportUrl": "https://t.me/Eixoxo"
+  }
+}
