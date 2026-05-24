@@ -1,0 +1,12 @@
+{
+  "version": "1",
+  "locales": ["en"],
+  "uiConfig": {
+    "backgroundColor": "#000000",
+    "textColor": "#FFFFFF"
+  },
+  "brandingSettings": {
+    "title": "Remnawave",
+    "logoUrl": "https://raw.githubusercontent.com/Eisxoxo/eipn-assets/main/images/logos/remnawave-logo-black-bg.jpg"
+  }
+}
